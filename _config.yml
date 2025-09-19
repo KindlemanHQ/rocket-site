@@ -1,0 +1,53 @@
+title: "Sondjer"
+email: will@sondjer.com
+timezone: UTC
+baseurl: ""
+url: https://www.sondjer.com
+permalink: "/:title/"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+author: Will
+paginate: 30
+disqus: 'sondjer'
+locale: en_us
+lang: en_us
+feed_items: 10
+feed_update_period: daily
+feed_update_frequency: 1
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+sass:
+  sass_dir: _sass
+  style: :compressed
+  quiet_deps: true
+ganalytics: G-VN8QX2XYM0
+
+# Authors
+authors:
+  Will:
+    name: Will
+    display_name: Will
+    avatar: 'assets/images/will.png'
+    email: will@kindleman.com.au
+    web: https://www.kindleman.com.au
+    twitter: https://twitter.com/kindlemanuk
+    description: "Author of Rocket, a simple rails CMS."  
+
+# Social
+social:
+  # instagram: https://www.instagram.com/bootstrapstarter/
+  # facebook: https://www.facebook.com/bootstrapstartercom-346329609045284
+  # twitter: https://twitter.com/bstartercom
+
+# Plugins
+plugins: 
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-archives
+
+include:
+  - robots.txt
