@@ -1,14 +1,14 @@
-title: "Sondjer"
-email: will@sondjer.com
+title: "Rocket"
+email: will@kindleman.com.au
 timezone: UTC
 baseurl: ""
-url: https://www.sondjer.com
+url: https://www.rocket.kindleman.com.au
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 author: Will
 paginate: 30
-disqus: 'sondjer'
+disqus: 'RocketRailsCMS'
 locale: en_us
 lang: en_us
 feed_items: 10
@@ -22,7 +22,7 @@ sass:
   sass_dir: _sass
   style: :compressed
   quiet_deps: true
-ganalytics: G-VN8QX2XYM0
+ganalytics: G-nope
 
 # Authors
 authors:
