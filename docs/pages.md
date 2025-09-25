@@ -2,4 +2,4 @@
 title: Pages
 layout: docs
 ---
-pages
+# Pages
